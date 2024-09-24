@@ -1,0 +1,29 @@
+.calculator{
+    width:4px;
+    display:grid;
+    grid-template-rows:auto auto auto;
+
+}
+.digits{
+    display:grid;
+    grid-template-columns:auto auto auto;
+}
+.operators{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+#result{
+    display:flex;
+    grid-column:1/4;
+}
+.buttons{
+    background-color: orange;
+    color:black;
+}
+.symbol{
+    background-color:aqua;
+    color:black;
+}
+.expression{
+    border:2px solid black;
+}
